@@ -108,17 +108,9 @@ void Print(Student* p, const int N)
 
 double LowMark(Student* p, const int N)
 {
-	double low_mark = 0;
-	double low = 0;
-	for (int i = 0; i < N; i++)
-	{
-		low_mark = (p[i].physics + p[i].maths + p[i].comp_science) / 3.0;
-		if (low_mark > low)
-		{
-			low = low_mark;
-		}
-	}
-	for (int i = 0; i < N; i++)
+	double low = (p[0].physics + p[0].maths + p[0].comp_science) / 3.0;
+	double low_mark;
+	for (int i = 1; i < N; i++)
 	{
 		low_mark = (p[i].physics + p[i].maths + p[i].comp_science) / 3.0;
 		if (low_mark < low)

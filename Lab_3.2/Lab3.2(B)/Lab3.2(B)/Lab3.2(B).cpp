@@ -210,22 +210,22 @@ int BinSearch(Student* p, const int N, const string surname, const int course, c
 	do
 	{
 		m = (L + R) / 2;
-		if (p[m].surname == surname && p[m].course == course && p[m].specialty == specialty)
+		if (p[m].specialty == specialty && p[m].surname == surname && p[m].course == course)
 			return m;
-		if ((p[m].surname < surname)
+		if ((p[m].specialty > specialty)
 			||
-			(p[m].surname == surname &&
-				p[m].course < course)
+			(p[m].specialty == specialty &&
+				p[m].surname < surname)
 			||
-			(p[m].surname == surname &&
-				p[m].course == course &&
-				p[m].specialty < specialty))
+			(p[m].specialty == specialty &&
+				p[m].surname == surname &&
+				p[m].course > course))
 		{
-			L = m + 1;
+			R = m - 1;
 		}
 		else
 		{
-			R = m - 1;
+			L = m + 1;
 		}
 	} while (L <= R);
 	return -1;
@@ -233,15 +233,6 @@ int BinSearch(Student* p, const int N, const string surname, const int course, c
 
 int* IndexSort(Student* p, const int N)
 { // використовуємо метод вставки для формування індексного масиву
- // 
- // int i, j, value;
- // for (i = 1; i < length; i++) {
- // value = a[i];
- // for (j = i - 1; j >= 0 && a[j] > value; j--) {
- // a[j + 1] = a[j];
- // }
- // a[j + 1] = value;
- // }
 
 	int* I = new int[N];
 

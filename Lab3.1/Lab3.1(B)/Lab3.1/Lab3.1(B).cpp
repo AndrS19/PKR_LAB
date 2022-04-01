@@ -142,30 +142,25 @@ void Print(Student* p, const int N)
 
 double LowMark(Student* p, const int N)
 {
-    double low_mark = 0;
-    double low = 0;
-    for (int i = 0; i < N; i++)
+    double low;
+    double low_mark;
+
+    switch (p[0].specialty)
     {
-        switch (p[i].specialty)
-        {
-        case KOMP_NAYK:
-            low_mark = (p[i].physics + p[i].maths + p[i].programming) / 3.0;
-            break;
-        case INFORMATUKA:
-            low_mark = (p[i].physics + p[i].maths + p[i].ch_methods) / 3.0;
-            break;
-        case MATEM_EKONOM:
-        case FIZ_MATEM:
-        case TRUD_NAVCH:
-            low_mark = (p[i].physics + p[i].maths + p[i].pedagogy) / 3.0;
-            break;
-        }
-        if (low_mark > low)
-        {
-            low = low_mark;
-        }
+    case KOMP_NAYK:
+        low = (p[0].physics + p[0].maths + p[0].programming) / 3.0;
+        break;
+    case INFORMATUKA:
+        low = (p[0].physics + p[0].maths + p[0].ch_methods) / 3.0;
+        break;
+    case MATEM_EKONOM:
+    case FIZ_MATEM:
+    case TRUD_NAVCH:
+        low = (p[0].physics + p[0].maths + p[0].pedagogy) / 3.0;
+        break;
     }
-    for (int i = 0; i < N; i++)
+
+    for (int i = 1; i < N; i++)
     {
         switch (p[i].specialty)
         {

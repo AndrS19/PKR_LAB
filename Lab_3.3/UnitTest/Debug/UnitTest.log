@@ -1,7 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project '..\Lab_3.3\Lab_3.3.vcxproj' does not exist.
   UnitTest.cpp
 D:\Політех\Програмування та командна робота\Lab_3.3\Lab3.3\Lab3.3.cpp(35,6): warning C4101: 'found': unreferenced local variable
-D:\Політех\Програмування та командна робота\Lab_3.3\UnitTest\UnitTest.cpp(19,1): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(187,15): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(168,15): message : or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-D:\Політех\Програмування та командна робота\Lab_3.3\UnitTest\UnitTest.cpp(19,1): message : while trying to match the argument list '(int, void)'
+  UnitTest.vcxproj -> D:\Політех\Програмування та командна робота\Lab_3.3\Debug\UnitTest.dll

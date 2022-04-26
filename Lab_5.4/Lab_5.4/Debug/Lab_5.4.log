@@ -1,0 +1,4 @@
+﻿  Lab_5.4.cpp
+D:\Політех\Програмування та командна робота\Lab_5.4\Lab_5.4\Lab_5.4.cpp(31,6): warning C4101: 'found': unreferenced local variable
+D:\Політех\Програмування та командна робота\Lab_5.4\Lab_5.4\Lab_5.4.cpp(174,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Lab_5.4.vcxproj -> D:\Політех\Програмування та командна робота\Lab_5.4\Debug\Lab_5.4.exe

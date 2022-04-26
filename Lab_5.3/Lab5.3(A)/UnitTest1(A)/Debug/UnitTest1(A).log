@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  UnitTest1(A).cpp
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(225,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(256,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(264,6): warning C4101: 'i1': unreferenced local variable
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(319,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(350,8): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Lab5.3(A)\Lab5.3(A).cpp(365,15): warning C4018: '>': signed/unsigned mismatch
+     Creating library D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Debug\UnitTest1(A).lib and object D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Debug\UnitTest1(A).exp
+  UnitTest1(A).vcxproj -> D:\Політех\Програмування та командна робота\Lab_5.3\Lab5.3(A)\Debug\UnitTest1(A).dll

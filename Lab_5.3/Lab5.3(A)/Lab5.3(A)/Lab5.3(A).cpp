@@ -355,18 +355,18 @@ int BinSearch(const char* filename, const char* surname, const int course, const
 		m = (L + R) / 2;
 		Student a = fRead(f, m);
 
-		if (strcmp(a.surname, surname) == 0 && a.course == course && a.specialty == specialty) {
+		if (a.specialty == specialty && strcmp(a.surname, surname) == 0 && a.course == course) {
 			return m;
 		}
 
-		if ((strcmp(a.surname, surname) == -1)
+		if ((a.specialty > specialty)
 			||
-			((strcmp(a.surname, surname) == 0) &&
-				(a.course > course))
+			(a.specialty == specialty &&
+				strcmp(a.surname, surname) == 1)
 			||
-			((a.surname == surname) &&
-				(a.course = course)) &&
-			(a.specialty > specialty))
+			(a.specialty == specialty &&
+				strcmp(a.surname, surname) == 0 &&
+				a.course > a.course))
 		{
 			R = m - 1;
 		}

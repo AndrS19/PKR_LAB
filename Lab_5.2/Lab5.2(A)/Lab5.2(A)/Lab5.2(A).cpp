@@ -26,7 +26,6 @@ double LowMark(const char* filename);
 int Physics_4(const char* filename);
 int Maths_4(const char* filename);
 int Comp_Science_4(const char* filename);
-void LoadBIN(char* filename);
 
 int main()
 {                             // забезпечення відображення кирилиці:

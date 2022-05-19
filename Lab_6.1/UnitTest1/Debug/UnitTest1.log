@@ -1,2 +1,2 @@
 ﻿  UnitTest1.cpp
-D:\Політех\Програмування та командна робота\Lab_6.1\UnitTest1\UnitTest1.cpp(16): error C4700: uninitialized local variable 'p' used
+  UnitTest1.vcxproj -> D:\Політех\Програмування та командна робота\Lab_6.1\Debug\UnitTest1.dll

@@ -14,11 +14,10 @@ namespace UnitTest1
 		{
 			Elem* first = NULL,
 				* last = NULL;
-			int i = -10;
-			if (i <= 10) {
-				Enqueue(first, last, i);
-				CreateList(first, last, i + 1);
-			}
+
+			Enqueue(first, last, 50);
+
+			Assert::AreEqual(first->info, 50);
 		}
 	};
 }

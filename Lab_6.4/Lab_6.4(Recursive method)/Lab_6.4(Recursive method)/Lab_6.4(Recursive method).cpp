@@ -110,7 +110,7 @@ int main()
 	cout << "Interval with: "; cin >> Low;
 	cout << "Interval to: "; cin >> High;
 	cout << "Enter list length = "; cin >> N;
-	Create(L, N, Low, High, 0);
+	Create(L, N, Low, High, -1
 	Elem* first = L;
 	cout << endl;
 	cout << "Created list L:" << endl;
